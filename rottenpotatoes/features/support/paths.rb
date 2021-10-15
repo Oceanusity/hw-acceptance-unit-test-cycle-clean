@@ -34,6 +34,7 @@ module NavigationHelpers
       movie_title = page_name[/"(.+)"/, 1]
       movie_id = (Movie.find_by title: movie_title)[:id]
       
+      
     # Add more mappings here.
     # Here is an example that pulls values out of the Regexp:
     #
